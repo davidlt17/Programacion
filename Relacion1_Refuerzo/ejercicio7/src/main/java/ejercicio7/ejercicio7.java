@@ -23,7 +23,23 @@ public class ejercicio7 {
         System.out.println("Introduce el segundo del segundo instante (00~59)");
             int s2= sc.nextInt();
 
-            //Conversion
+            //Conversion a segundos
+
+    int segundostotal1= ((h1*3600)+(m1*60)+s1);
+    int segundostotal2= ((h2*3600)+(m2*60)+s2);
+    int diferenciaseg= segundostotal2-segundostotal1;
+
+            //Conversion a formato horas
+
+        int minutosprov=diferenciaseg/60;
+        int segundosfinal=diferenciaseg%60;
+        int horasfinal=minutosprov/60;
+        int minutosfinal=minutosprov%60;
+
+
+        System.out.println("La diferencia horaria es de " +horasfinal+ " hora(s), "+minutosfinal+" minuto(s) y "+segundosfinal+" segundo(s)");
+
+
 
 
     }
