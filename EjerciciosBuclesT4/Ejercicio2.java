@@ -27,9 +27,5 @@ public class Ejercicio2 {
         }
 
         System.out.println("La letra "+letra+ " se repite "+contador+" veces.");
-
-
-
-
     }
 }
