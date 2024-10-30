@@ -25,10 +25,5 @@ public class Ejercicio6 {
 
         System.out.println("La palabra "+cadena+" tiene "+contador+ " vocales");
 
-
-
-
-
-
     }
 }
