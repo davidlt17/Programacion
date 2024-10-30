@@ -18,8 +18,5 @@ public class Ejercicio7 {
             num++;
             System.out.println(""+num);
         }
-
-
-
     }
 }
